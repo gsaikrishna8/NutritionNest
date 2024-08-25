@@ -9,7 +9,7 @@ import "./Program1.css";
 function Program1() {
   return (
     <div>
-      <nav className="container">
+      <nav className="nav-container">
         <NavLink to="/">
           <img
             src={logo}

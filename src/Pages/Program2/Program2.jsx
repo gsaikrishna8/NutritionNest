@@ -8,7 +8,7 @@ import "./Program2.css";
 function Program2() {
   return (
     <div>
-      <nav className="container">
+      <nav className="nav-container">
         <NavLink to="/">
           <img src={logo} alt="" className="logo"  />
         </NavLink>
