@@ -22,11 +22,7 @@ nav {
 
 .logo {
   width: 50%;
-  margin-right: 20%;
-  text-align: left;
-  display: flex;
-  justify-content: left;
-  align-items: center;
+ 
 }
 
 .dark-nav {
