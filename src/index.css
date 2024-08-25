@@ -10,12 +10,12 @@ body{
   background: #F5F5F5;
 }
 
-/* a{
+a{
   text-decoration: none;
   color: inherit;
   line-height: 1;
   cursor: pointer;
-} */
+}
 
 .container{
   padding-left: 10%;

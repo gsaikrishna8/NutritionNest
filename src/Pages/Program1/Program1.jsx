@@ -32,8 +32,7 @@ function Program1() {
               />
               <p
                 style={{
-                  fontSize: "20px",
-                  fontWeight: 500,
+                  
                   color: "#736c6c",
                 }}
               >

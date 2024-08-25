@@ -23,7 +23,7 @@ function Program3() {
                 style={{ marginRight: "10px", width: "20px" }}
               />
               <p
-                style={{ fontSize: "20px", fontWeight: 500, color: "#736c6c" }}
+                style={{  color: "#736c6c" }}
               >
                 Back
               </p>{" "}
