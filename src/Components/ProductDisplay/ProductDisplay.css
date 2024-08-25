@@ -1,0 +1,43 @@
+.product-display {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  .product-title {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  
+  .product-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .product-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .product-caption img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-title {
+      font-size: 1.5rem;
+    }
+  
+    .product-description {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,141 @@
+.productContainer {
+  padding-top: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+}
+nav {
+  width: 100%;
+  background: #212ea0;
+  color: #fff;
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo {
+  width: 180px;
+  margin-right: auto;
+}
+.productImage {
+  width: 90%;
+  height: 80vh;
+  padding-top: 20px;
+}
+.productCaption {
+  width: 90%;
+  padding: 20px;
+}
+.backButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: flex-start;
+  padding: 10px;
+}
+.dark-nav {
+  background: #212ea0;
+  transition: 0.5s;
+}
+
+.footer {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #797979;
+  padding: 15px 0;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+.btn {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .footer {
+    display: block;
+    text-align: center;
+  }
+  .footer ul li {
+    margin: 10px;
+  }
+
+  .footer ul {
+    margin-top: 10px;
+  }
+  .productContainer {
+    flex-basis: 100%;
+    margin: 20px;
+  }
+  .backButton {
+    margin-top: 60px;
+  }
+  .backButton .btn {
+    margin-right: 20%;
+  }
+  .productContainer .productImage {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    display: block;
+  }
+  .productContainer .productCaption {
+    width: 100%;
+    /* border-radius: 10px; */
+    display: block;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    width: 140px;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 840px) {
+  nav {
+    padding: 15px 0;
+  }
+  nav ul {
+    position: fixed;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+    background: #212ea0;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 25px 40px;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+  }
+  .hide-mobile-menu {
+    right: -200px;
+  }
+}
