@@ -21,8 +21,8 @@ nav {
 }
 
 .logo {
-  width: 180px;
-  margin-right: auto;
+  width: 200px;
+  
 }
 .productImage {
   width: 90%;
@@ -59,11 +59,20 @@ nav {
   display: inline-block;
   margin-left: 20px;
 }
-.btn {
+.backBtn {
   width: 90%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  background: #FFF;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
 }
 @media (max-width: 600px) {
   .footer {
@@ -84,7 +93,7 @@ nav {
   .backButton {
     margin-top: 60px;
   }
-  .backButton .btn {
+  .backButton .backBtn {
     margin-right: 20%;
   }
   .productContainer .productImage {
@@ -130,11 +139,7 @@ nav {
     margin: 25px 40px;
   }
 
-  .menu-icon {
-    display: block;
-    width: 30px;
-    cursor: pointer;
-  }
+  
   .hide-mobile-menu {
     right: -200px;
   }

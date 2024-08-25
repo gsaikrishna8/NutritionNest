@@ -21,10 +21,10 @@ nav {
 }
 
 .logo {
-  width: 180px;
+  width: 50%;
   margin-right: auto;
 }
-productImage {
+.productImage {
   width: 90%;
   height: 80vh;
   padding-top: 20px;
@@ -59,12 +59,21 @@ productImage {
   display: inline-block;
   margin-left: 20px;
 }
-.btn {
-  width: 90%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
+  .backBtn {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #FFF;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+  }
 @media (max-width: 600px) {
   .footer {
     display: block;
@@ -95,7 +104,7 @@ productImage {
   .backButton {
     margin-top: 60px;
   }
-  .backButton .btn {
+  .backButton .backBtn {
     margin-right: 20%;
   }
 }
@@ -130,11 +139,7 @@ productImage {
     margin: 25px 40px;
   }
 
-  .menu-icon {
-    display: block;
-    width: 30px;
-    cursor: pointer;
-  }
+ 
   .hide-mobile-menu {
     right: -200px;
   }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/Nutrition.png";
 import { Link } from "react-scroll";
 import menu_icon from "../../assets/menu-icon.png";
 
@@ -57,7 +57,7 @@ const Navbar = () => {
             smooth={true}
             offset={-260}
             duration={500}
-            className="getQuoteBtn"
+            className="btn"
           >
             Get Quote
           </Link>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import program_3 from "../../assets/program-3.png";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/Nutrition.png";
 import backarrow from "../../assets/back.png";
 import { NavLink } from "react-router-dom";
 import "./Program3.css";
@@ -16,7 +16,7 @@ function Program3() {
       <div className="productContainer">
         <div className="backButton">
           <NavLink to="/">
-            <button className="btn">
+            <button className="backBtn">
               <img
                 src={backarrow}
                 alt=""
