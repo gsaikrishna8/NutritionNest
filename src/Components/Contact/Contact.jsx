@@ -36,7 +36,7 @@ const Contact = () => {
             <h3>Contact Us <img src={msg_icon} alt="" /> </h3>
             <p>To get a quote or general inquires, please fill out our contact form. We’ll be in touch shortly with the right Nutrivolent expert to help you find the right solutions for your operation.</p>
         <ul>
-            <li><img src={mail_icon} alt="" />contactnutritionnest.com</li>
+            <li><img src={mail_icon} alt="" />contact@nutritionnest.com</li>
             <li><img src={phone_icon} alt="" />+91 8886163899</li>
             <li><img src={location_icon} alt="" />Hyderabad, Telangana, India
 </li>
