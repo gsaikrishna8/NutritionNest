@@ -13,7 +13,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "9dd3a722-797f-408a-9a0c-617810f72278");
+    formData.append("access_key", "cfe52436-11af-4f21-88f5-b691cf32dd55");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -36,10 +36,9 @@ const Contact = () => {
             <h3>Contact Us <img src={msg_icon} alt="" /> </h3>
             <p>To get a quote or general inquires, please fill out our contact form. We’ll be in touch shortly with the right Nutrivolent expert to help you find the right solutions for your operation.</p>
         <ul>
-            <li><img src={mail_icon} alt="" />contact@ajsupplements.com</li>
-            <li><img src={phone_icon} alt="" />+1 123-456-5389</li>
-            <li><img src={location_icon} alt="" />10400 Viking Drive, Suite 240
-Eden Prairie, Minnesota 55344 USA
+            <li><img src={mail_icon} alt="" />contactnutritionnest.com</li>
+            <li><img src={phone_icon} alt="" />+91 8886163899</li>
+            <li><img src={location_icon} alt="" />Hyderabad, Telangana, India
 </li>
 
         </ul>

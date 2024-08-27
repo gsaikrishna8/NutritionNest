@@ -43,7 +43,7 @@ function Program3() {
         </div>
       </div>
       <div className="footer">
-        <p>© 2024 AJ Supplements®. All Rights Reserved.</p>
+        <p>© Nutrition Nest®. All Rights Reserved.</p>
         <ul>
           <li>Privacy Policy</li>
           <li>Terms of Use</li>

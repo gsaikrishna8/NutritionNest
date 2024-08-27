@@ -12,10 +12,10 @@ const About = () => {
         </div>
 
         <div className="about-right">
-            <h3>About AJ Supplements®</h3>
+            <h3>About Nutrition Nest®</h3>
             <h2>Nutrivolent</h2>
 
-            <p>For more than 50 years, AJSupplements has improved the health and wellbeing of both animals and people as a pioneer in the research and development of performance trace minerals and innovative solutions.</p>
+            <p>For more than 50 years, Nutrition Nest has improved the health and wellbeing of both animals and people as a pioneer in the research and development of performance trace minerals and innovative solutions.</p>
         </div>
     </div>
   )
